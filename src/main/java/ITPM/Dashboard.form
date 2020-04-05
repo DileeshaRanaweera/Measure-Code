@@ -130,6 +130,9 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="Size"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Dash_SizeBtnActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JButton" name="Dash_MethodsBtn">
               <Properties>
@@ -138,6 +141,9 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="Methods"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Dash_MethodsBtnActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JButton" name="Dash_VariablesBtn">
               <Properties>
@@ -154,6 +160,9 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="Inheritance"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Dash_InheritanceBtnActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JButton" name="Dash_CouplingBtn">
               <Properties>
@@ -162,6 +171,9 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="Coupling"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Dash_CouplingBtnActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JButton" name="Dash_controlStructuresBtn">
               <Properties>
@@ -170,6 +182,9 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="Control Structures"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Dash_controlStructuresBtnActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel1">
               <Properties>

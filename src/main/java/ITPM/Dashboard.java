@@ -64,21 +64,46 @@ public class Dashboard extends javax.swing.JFrame {
 
         Dash_SizeBtn.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Dash_SizeBtn.setText("Size");
+        Dash_SizeBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Dash_SizeBtnActionPerformed(evt);
+            }
+        });
 
         Dash_MethodsBtn.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Dash_MethodsBtn.setText("Methods");
+        Dash_MethodsBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Dash_MethodsBtnActionPerformed(evt);
+            }
+        });
 
         Dash_VariablesBtn.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Dash_VariablesBtn.setText("Variables");
 
         Dash_InheritanceBtn.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Dash_InheritanceBtn.setText("Inheritance");
+        Dash_InheritanceBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Dash_InheritanceBtnActionPerformed(evt);
+            }
+        });
 
         Dash_CouplingBtn.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Dash_CouplingBtn.setText("Coupling");
+        Dash_CouplingBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Dash_CouplingBtnActionPerformed(evt);
+            }
+        });
 
         Dash_controlStructuresBtn.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         Dash_controlStructuresBtn.setText("Control Structures");
+        Dash_controlStructuresBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Dash_controlStructuresBtnActionPerformed(evt);
+            }
+        });
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel1.setText("Measuring Options");
@@ -298,6 +323,35 @@ public class Dashboard extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null,"Please Select a Measuring Option");
         }
     }//GEN-LAST:event_Dash_SubmitBtnActionPerformed
+
+    private void Dash_SizeBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Dash_SizeBtnActionPerformed
+        // TODO add your handling code here:
+        WeightSize ws = new WeightSize();
+        ws.setVisible(true);
+    }//GEN-LAST:event_Dash_SizeBtnActionPerformed
+
+    private void Dash_MethodsBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Dash_MethodsBtnActionPerformed
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_Dash_MethodsBtnActionPerformed
+
+    private void Dash_CouplingBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Dash_CouplingBtnActionPerformed
+        // TODO add your handling code here:
+        WeightCoupling wc = new WeightCoupling();
+        wc.setVisible(true);
+    }//GEN-LAST:event_Dash_CouplingBtnActionPerformed
+
+    private void Dash_InheritanceBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Dash_InheritanceBtnActionPerformed
+        // TODO add your handling code here:
+        WeightInheritance wi = new WeightInheritance();
+        wi.setVisible(true);
+    }//GEN-LAST:event_Dash_InheritanceBtnActionPerformed
+
+    private void Dash_controlStructuresBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Dash_controlStructuresBtnActionPerformed
+        // TODO add your handling code here:
+         WeightControlStructure cs = new WeightControlStructure();
+        cs.setVisible(true);
+    }//GEN-LAST:event_Dash_controlStructuresBtnActionPerformed
 
     /**
      * @param args the command line arguments

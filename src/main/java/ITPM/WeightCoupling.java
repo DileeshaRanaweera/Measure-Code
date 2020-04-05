@@ -5,6 +5,7 @@
  */
 package ITPM;
 
+import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
@@ -20,6 +21,7 @@ public class WeightCoupling extends javax.swing.JFrame {
     public WeightCoupling() {
         initComponents();
         setResizable(false);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     }
 
     /**

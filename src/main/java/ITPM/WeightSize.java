@@ -5,6 +5,7 @@
  */
 package ITPM;
 
+import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
@@ -20,6 +21,7 @@ public class WeightSize extends javax.swing.JFrame {
     public WeightSize() {
         initComponents();
         setResizable(false);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     }
 
     /**
@@ -172,8 +174,7 @@ public class WeightSize extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButtonStartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonStartActionPerformed
-        WeightControlStructure cs = new WeightControlStructure();
-        cs.setVisible(true);
+
         
     }//GEN-LAST:event_jButtonStartActionPerformed
 
